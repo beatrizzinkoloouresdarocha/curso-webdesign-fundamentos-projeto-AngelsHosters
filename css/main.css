@@ -1,19 +1,34 @@
-:root{
-    --primary-color :#612674;
+:root {
+    --primary-color: #612674;
 }
 
-html{
+html {
     font-family: sans-serif;
 }
 
-.maxWidth{
+.maxWidth {
     max-width: 70.25em;
 }
 
-.top_header{
+.top_header {
     text-align: center;
 }
 
-.top_header_nav{
+.top_header_nav {
     background-color: var(--primary-color);
+}
+
+/* Adicione estilos de texto */
+body {
+    color: #000; /* Define a cor do texto como preto */
+    font-size: 16px; /* Define o tamanho padrão da fonte */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #fff; /* Define a cor do texto dos links como branco */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
 }
