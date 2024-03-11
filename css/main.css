@@ -9,3 +9,11 @@ html{
 .maxWidth{
     max-width: 70.25em;
 }
+
+.top_header{
+    text-align: center;
+}
+
+.top_header_nav{
+    background-color: var(--primary-color);
+}
