@@ -33,6 +33,8 @@ h4 {
     margin-bottom: 0;
 }
 
+
+
 .top_header_nav a {
     color: white;
     text-decoration: none;
@@ -41,7 +43,7 @@ h4 {
 }
 
 .top_header_nav li:hover {
-    background-color: color-mix(in srgb, var(--primary-color), white 10%);
+    background-color: color-mix(in srgb, var(--primary-color), white 10%)
 }
 
 /* md */
@@ -71,6 +73,7 @@ h4 {
         background-color: color-mix(in srgb, var(--primary-color), white 85%);
     }
 }
+
 
 .heroBanner {
     text-align: center;
@@ -132,6 +135,7 @@ h4 {
     .heroBanner {
         background-image: url(../images/bg_topo_1198x670.jpg);
         aspect-ratio: 1198 / 670;
+
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -142,6 +146,7 @@ h4 {
         margin-bottom: 4em;
         width: 75%;
     }
+
 }
 
 /* xl */
@@ -152,6 +157,7 @@ h4 {
         background-position: center top;
         background-color: var(--primary-color);
         background-repeat: no-repeat;
+
         max-height: 80vh;
         width: 100%;
     }
@@ -197,6 +203,13 @@ h4 {
     line-height: 1.5;
 }
 
+/* 
+min-width: 0        ->  col-sm
+min-width: 48.75em  ->  col-md
+min-width: 56.25em  ->  col-lg
+min-width: 74em     ->  col-xl
+*/
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -228,6 +241,7 @@ h4 {
     }
 }
 
+
 .mainContent {
     padding: 2em;
 }
@@ -251,6 +265,7 @@ h4 {
 .mainContent .row {
     row-gap: 4em;
 }
+
 
 .mainContent_article {
     container: main-content / inline-size;
@@ -277,6 +292,7 @@ h4 {
     .mainContent_text {
         flex-grow: 1;
     }
+
 }
 
 .footer {
